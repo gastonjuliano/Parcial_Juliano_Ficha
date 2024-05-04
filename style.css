@@ -137,7 +137,7 @@ footer .logo{
         margin-top: 2%;
         margin-left: 6%;
         color: black;
-        line-height: 35px;
+        line-height: 38px;
         font-size: 22px;
     }
 
@@ -234,12 +234,25 @@ footer .logo{
 
 }
 
+@media (max-width:375px){
 
-
-@media (max-width:425px){
     header h1{
-        font-size: 32px;
-
+        font-size: 30px;
     }
+
+}
+
+
+
+@media (max-width:320px){
+
+    header h1{
+        font-size: 28px;
+    }
+
+        .descripcion{
+            font-size: 14px;
+            line-height: 26px;
+        }
 
 }
