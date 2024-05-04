@@ -213,6 +213,9 @@ footer .logo{
     header{
         height: 110px;
     }
+    header h1{
+        font-size: 43px;
+    }
 
 
     footer{
@@ -228,5 +231,15 @@ footer .logo{
     }
 
 
+
+}
+
+
+
+@media (max-width:425px){
+    header h1{
+        font-size: 32px;
+
+    }
 
 }
